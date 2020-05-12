@@ -16,6 +16,8 @@ if (early && age > 18) {
 if (early && age > 18) {
     console.log(`Race will begin at 9:30, your race number is ${raceNumber}.`);
 // 006 - Write the corresponding else if statement. Within that, log a string to the console telling them that they will race at 11:00 am. Include their raceNumber.
-} else if {
+} else if (!early && age > 18) {
     console.log(`You will race at 11:00 am and your race number is ${raceNumber}.`);
-}
+// 007 - For people who are under 18, log a statement to the console telling them that they will race at 12:30 pm. Include their raceNumber.
+} else {
+    console.log(`You will race at 12:30 pm and your race number is ${raceNumber}.`);};
