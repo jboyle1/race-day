@@ -11,3 +11,8 @@ let age = 19;
 if (early && age > 18) {
     raceNumber += 1000;
 };
+
+// 005 Create a separate control flow statement below the first (starting with if again). This statement will check age and registration time to determine race time. For runners over 18 who registered early, log a statement to the console telling them that they will race at 9:30 am. Include their raceNumber.
+if (early && age > 18) {
+    console.log(`Race will begin at 9:30, your race number is: ${raceNumber}.`);
+}
