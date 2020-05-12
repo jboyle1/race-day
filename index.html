@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./static/css/reset.css">
+    <link rel="stylesheet" typr="text/css" href="./static/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto&display=swap" rel="stylesheet">
     <title>Race Day</title>
 </head>
 <body>
@@ -13,12 +16,18 @@
     <main>
         <div id="raceDayArea">
             <section>
-                <div id="name-input">
-                    <input placeholder="Enter Name" id="first_name">
+                <div id="nameInput">
+                    <input placeholder="Enter Name" id="firstName">
                     <button id="say">Say hi!</button>
                 </div>
             </section>
+            <section>
+                <div id="nameResult"></div>
+            </section>
         </div>
     </main>
+
+    <script src="./static/js/say-hi.js"></script>
 </body>
+
 </html>
