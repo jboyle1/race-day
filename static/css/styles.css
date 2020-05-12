@@ -11,3 +11,41 @@
 
 /* /Header */
 
+/* Main */
+
+#raceDayArea {
+    margin-top: 30px;
+}
+
+/* /Main */
+
+/* Name, age and registration time input */
+
+#nameInput, #ageAndTimeInput {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+#firstName, #nameInput button {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: rgb(47, 53, 107);
+    border: none;
+    color: #ffffff;
+    padding: 3px 6px 3px 6px;
+    border-radius: 3px;
+    margin-left: 4px;
+}
+
+#nameResult {
+    width:180px;
+    height:40px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+}
+
+/* /Name, age and registration time input */
