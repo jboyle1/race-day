@@ -22,3 +22,7 @@ Start time:
   * Early adults run at 9:30 am.
   * Late adults run at 11:00 am.
 * Youth registrants run at 12:30 pm (regardless of registration).
+
+### My Working
+
+I have worked though the code challage in main.js with comments but this file is not functional. I have taken this code and developed it further in age-&-time-prog.js and say-hi.js files. These are the files linked into the HTML.
