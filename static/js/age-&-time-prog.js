@@ -13,7 +13,13 @@ function name_age_time_string () {
     if (userTime === 'early' && userAge >= 18) {
         let string = `${userName}, you will race at 9:30 am and your race number is ${raceNumber}.`
         document.getElementById('nameAgeTimeString').innerHTML = string;
-      } else if (userAge >= 18 && userTime === !'early') {
+      } else if (userTime === 'Early' && userAge >= 18) {
+        let string = `${userName}, you will race at 9:30 am and your race number is ${raceNumber}.`
+        document.getElementById('nameAgeTimeString').innerHTML = string;
+      } else if (userTime === 'late' && userAge >= 18) {
+        let string = `${userName}, you will race at 11:00 am and your race number is ${raceNumber}.`
+        document.getElementById('nameAgeTimeString').innerHTML = string;
+      } else if (userTime === 'Late' && userAge >= 18) {
         let string = `${userName}, you will race at 11:00 am and your race number is ${raceNumber}.`
         document.getElementById('nameAgeTimeString').innerHTML = string;
       } else {

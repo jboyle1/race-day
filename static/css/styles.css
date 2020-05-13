@@ -21,7 +21,13 @@
 
 /* Name, age and registration time input */
 
-#nameInput, #ageAndTimeInput {
+#ageAndTimeInput {
+    text-align: center;
+    padding: 10px 40px;
+    margin-top: 80px;
+}
+
+#nameInput {
     text-align: center;
     padding: 10px 40px;
 }
@@ -39,13 +45,57 @@ button {
     margin-left: 4px;
 }
 
-#nameResult {
-    width:180px;
+#nameResult, p{
+    width: 480px;
     height:40px;
     margin: auto;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     padding-top: 20px;
+    line-height: 1.25;
 }
+
+#nameAgeTimeString {
+    width: 480px;
+    height:40px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+    line-height: 1.25;
+    color: red;
+}
+
+h2 {
+    width: 480px;
+    height:40px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+    font-weight: 600;
+    font-size: large;
+}
+
+h3 {
+    width: 480px;
+    height:40px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: -20px;
+}
+
+hr {
+    width: 90px;
+}
+
+
+
+
 
 /* /Name, age and registration time input */
