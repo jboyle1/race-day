@@ -1,10 +1,10 @@
 ### https://jboyle1.github.io/race-day/
  
-## Magic Eight Ball Application 
+## Race Day Application 
 
 ### Description
 
-In this project I will follow Codecademy's tutorial and write a program that will register runners for the race and give them instructions on race day. I will then create the rest of the Javascript interactivity (with query selectiors), HTML and styling myself to develop it into a fully functioning application.
+In this project I will follow Codecademy's tutorial and write a program that will register runners for the race and give them instructions on race day. I will then create the rest of the Javascript interactivity (with query selectors), HTML and styling myself to develop it into a fully functioning application.
 
 
 ### How it works 
